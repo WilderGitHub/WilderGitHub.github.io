@@ -73,7 +73,9 @@ div{
 	padding-right: 2%;}
 
 p {
-  text-align: justify;
+  	background-color: red;
+	text-align: justify;
+	color:blue;
 	padding-left: 2%;
 	padding-right: 2%;
 	font-family: Arial;
