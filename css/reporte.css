@@ -67,12 +67,13 @@ div{
 	          padding-right: 2%;margin-bottom:0%;}
 
 
- h1{font-size: 3vmin;font-family: Arial;line-height:1;padding-left: 2%;
+ .miSeccion h1{font-size: 5vmin;font-family: Arial;line-height:1;padding-left: 2%;
 	padding-right: 2%;}
- h2{font-size: 2vmin;font-family: Arial;line-height:1;padding-left: 2%;
+ .miSeccion h2{font-size: 3vmin;font-family: Arial;line-height:1;padding-left: 2%;
 	padding-right: 2%;}
 
 p {
+  
   text-align: justify;
 	padding-left: 2%;
 	padding-right: 2%;
