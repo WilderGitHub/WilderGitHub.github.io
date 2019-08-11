@@ -67,8 +67,15 @@ div{
 	          padding-right: 2%;margin-bottom:0%;}
 
 
- .miSeccion p {font-family: Arial, Helvetica, sans-serif; font-size: 4vmin;font-family: Arial;line-height:1;padding-left: 2%;
-	padding-right: 2%;}
+ .miSeccion p {
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 4vmin;
+      font-family: Arial;
+      line-height:1;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
 
 
 p {
