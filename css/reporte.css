@@ -68,8 +68,8 @@ div{
 
 
  .miSeccion p {
-      text-align: left;
-      background-color:gold;
+      text-align: justify;
+      background-color:red;
       /* font-weight: bold; */
       font-size: 4vmin;
       font-family: Arial;
