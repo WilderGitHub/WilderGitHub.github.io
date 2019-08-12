@@ -68,10 +68,10 @@ div{
 
 
  .miSeccion p {
-      text-align: right;
-      background-color:tomato;
+      text-align: left;
+      background-color:aquamarine;
       /* font-weight: bold; */
-      font-size: 4vmin;
+      /* font-size: 4vmin; */
       font-family: Arial;
       /* line-height:1;
       padding-left: 2%;
