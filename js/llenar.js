@@ -12,17 +12,17 @@ function llenaremos(){
         document.body.appendChild (miDiv);
             /* crea el H1 = Titulo de la sección */
         if (secciones[i].titulo[0]!==null){
-            var miP1= document.createElement("p");
-            miDiv.appendChild(miP1);
+            var miH1= document.createElement("h1");
+            miDiv.appendChild(miH1);
             var contenido= secciones[i].titulo[0];
-            miP1.appendChild(document.createTextNode(contenido));
+            miH1.appendChild(document.createTextNode(contenido));
         };
         if (secciones[i].subtitulo[0]!==null){
             /* crea el h2 = Subtitulo que pueden haber muchos oe*/
-            var miP2= document.createElement("p");
-            miDiv.appendChild(miP2);
+            var miH2= document.createElement("h2");
+            miDiv.appendChild(miH2);
             var contenido= secciones[i].subtitulo[0];
-            miP2.appendChild(document.createTextNode(contenido));
+            miH2.appendChild(document.createTextNode(contenido));
         };   
 
         /* crea el P */

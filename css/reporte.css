@@ -67,9 +67,19 @@ div{
 	          padding-right: 2%;margin-bottom:0%;}
 
 
- .miSeccion p {
+ .miSeccion h1 {
       text-align: justify;
-      background-color:red;
+      
+      /* font-weight: bold; */
+      font-size: 5vmin;
+      font-family: Arial;
+      line-height:1;
+      padding-left: 2%;
+      padding-right: 2%; 
+    }
+    .miSeccion h2 {
+      text-align: justify;
+      
       /* font-weight: bold; */
       font-size: 4vmin;
       font-family: Arial;
@@ -78,15 +88,14 @@ div{
       padding-right: 2%; 
     }
 
-
-/* p {
+p {
   
   text-align: justify;
 	padding-left: 2%;
 	padding-right: 2%;
 	font-family: Arial;
 	font-size: 3vmin;
-	line-height: 1.6; */
+	line-height: 1.6;
 
 }
 .piePagina{
