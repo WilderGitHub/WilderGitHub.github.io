@@ -67,9 +67,10 @@ div{
 	          padding-right: 2%;margin-bottom:0%;}
 
 
- p {
+ .miSeccion p {
       text-align: left;
-      font-weight: bold;
+      color: purple;
+      /* font-weight: bold; */
       font-size: 4vmin;
       font-family: Arial;
       line-height:1;
