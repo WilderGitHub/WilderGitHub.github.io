@@ -69,13 +69,13 @@ div{
 
  .miSeccion p {
       text-align: right;
-      background-color:yellowgreen;
+      background-color:tomato;
       /* font-weight: bold; */
       font-size: 4vmin;
       font-family: Arial;
-      line-height:1;
+      /* line-height:1;
       padding-left: 2%;
-      padding-right: 2%; 
+      padding-right: 2%;  */
     }
 
 
