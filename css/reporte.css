@@ -17,26 +17,21 @@ div{
 	color:white;
 	width: 100%;
 	height: 100vh;
-	/*display: -webkit-flex;*/
 	display: flex;
-	/*background-color: rgb(0,0,255,0.3);*/
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
-
 .caratula h1{font-size: 5vmin;font-family: Arial;line-height:1}
 .caratula h2{font-size: 4vmin;font-family: Arial;line-height:1}
 .caratula h3{font-size: 3vmin;font-family: Arial;line-height:1}
 
 .miGraficoWrap{
-  /* background: rgba(226, 227, 228,0.6); */
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-  
 }
 .miGraficoWrap1{
   width: 80%;
@@ -44,13 +39,8 @@ div{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-  
 }
-.miGraficoWrap2{
-  width:100%;
-	
-}
-
+.miGraficoWrap2{width:100%;}
 .miGraficoWrap2 >p{
   font-size: 2vmin;
   line-height: 1;margin-bottom: 0.2%;
@@ -66,11 +56,8 @@ div{
               line-height:1;padding-left: 2%;
 	          padding-right: 2%;margin-bottom:0%;}
 
-
  .miSeccion h1 {
       text-align: justify;
-      
-      /* font-weight: bold; */
       font-size: 5vmin;
       font-family: Arial;
       line-height:1;
@@ -79,8 +66,6 @@ div{
     }
     .miSeccion h2 {
       text-align: justify;
-      
-      /* font-weight: bold; */
       font-size: 4vmin;
       font-family: Arial;
       line-height:1;
@@ -89,14 +74,12 @@ div{
     }
 
 p {
-  
   text-align: justify;
 	padding-left: 2%;
 	padding-right: 2%;
 	font-family: Arial;
 	font-size: 3vmin;
 	line-height: 1.6;
-
 }
 .piePagina{
   text-align:left;
@@ -105,17 +88,13 @@ p {
   margin-bottom: 1%;
   background-color: rgb(221, 221, 221);
 }
-
-.miImagen{
-  width: 100%; /* 90vmin; */
-  /* height: 80vmin; */
-}
+.miImagen{width: 100%;background-color: white;}
 .encabezadoGraficos{
 	margin-bottom: 2%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content:center;/*background-color: rgb(0,0,255,0.3);*/
+	justify-content:center;
 }
 .titulosGraficos{
 	width:90vh;
@@ -127,7 +106,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content:center;/*background-color: rgb(0,0,255,0.3);*/
+	justify-content:center;
 }
 .iconoDescargar{
 	width:0vh;
@@ -143,38 +122,46 @@ p {
 }
 
 /* ////////////////////EL MENU  ///////////////// */
-
-.Menu {
-  /* background-color: yellow; */
+.menuGrande{
+  top:15%;
   position: fixed;
+  width: 70%;
   display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content:center;
-  
+
+}
+.Menu {
+  /* background-color: yellow; */
+  /* top:15%; */
+  position: relative;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
   color: white;
   z-index: 3;
   left: 0px;
   transition: 0.3s;
   padding-right:10px;
-  width: 200px;
+  width: 100%;
   text-decoration: none;
   font-family: Arial;
   /* text-align: right; */
   font-size:2.5vmin;
   border-radius: 0 15px 15px 0;
-  /* display: inline-block; */
 }
-.iconoMenu {
-  
+.Menu .iconoMenu {
+  position: absolute;
   color: white;
   padding: 16px;
   left: 0;
   border: none;
   position: fixed; 
-  top:15%;
+  /* top:15%; */
   background-color: rgba(31,73,125,0.7);
-  z-index: 2;
+  z-index: 3;
   transition: 0.3s;
   padding-right:10px;
   text-align: right;
@@ -186,20 +173,20 @@ p {
   box-shadow:1vmin 1vmin 1vmin  rgba(0,0,0,0.3);
 }
 
-.contenidoMenu {
-  position: fixed;
+.Menu .contenidoMenu {
+  position: absolute;
   display: none;
-  top:20%;
+  top:5%;
   background-color: rgb(31,73,125);
-  z-index: 2;
-  left: 0px;
+  z-index: 3;
+  left: -10px;
   transition: 0.3s;
   padding-right:10px;
-  width: 300px;
+  width: 65%px;
   text-decoration: none;
   font-family: Arial;
   text-align: left;
-  font-size:2.5vmin;
+  font-size:4vmin;
   line-height: 1.4;
   border-radius: 0 15px 15px 0;
   min-width: 160px;
@@ -207,7 +194,6 @@ p {
   box-shadow:1vmin 1vmin 1vmin  rgba(0,0,0,0.3);
 }
 .contenidoMenu a {
-  
   color: white;
   padding: 12px 16px;
   text-decoration: none;
@@ -216,7 +202,7 @@ p {
 
 .contenidoMenu a:hover {background-color:rgb(13, 30, 53);}
 .Menu:hover .contenidoMenu {display: block;color:rgb(222,169,0)}
-.Menu:hover .iconoMenu {background-color: rgb(222,169,0);} 
+.Menu:hover .iconoMenu {z-index: 0;background-color: rgb(222,169,0);} 
 
  /* PARA EL TOOLTIP, HAY QUE REVISAR */
 
