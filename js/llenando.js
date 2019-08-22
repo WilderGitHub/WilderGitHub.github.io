@@ -1,9 +1,9 @@
-function llenando(){
+function llenaremos(){
     for (i=0;i<secciones.length;i++)
     {
         
         
-        /* crea el DIV con clase  miSección*/
+        /* crea el DIV con clase miSección*/
         var miDiv= document.createElement("div");
         miDiv.className= "miSeccion"
         /*Si nuez "" le asigna id*/

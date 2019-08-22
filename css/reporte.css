@@ -317,25 +317,20 @@ p {
     width: 100%;
   }
 }
-/* SCROLL BAR */
-/* width */
+/* ///////////////SCROLL BAR ///////////////////////*/
 ::-webkit-scrollbar {
   width: 17px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 10px black; 
   border-radius: 10px;
 }
- 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(222,169,0,0.7); 
   border-radius: 10px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(222,169,0);; 
 }
+
+
