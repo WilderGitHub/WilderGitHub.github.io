@@ -334,3 +334,10 @@ p {
 }
 
 
+/*los medias querys*/
+@media screen and (max-width: 600px) {
+html{
+  background-color: red;
+}
+
+}
